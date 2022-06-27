@@ -1,0 +1,117 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=League+Gothic&family=Ubuntu&display=swap');
+body{
+    background-color: rgba(184, 215, 184, 0.699);
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+font-family: 'ubuntu',sans-serif;
+}   
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color:rgb(120, 196, 206);
+    font-style: oblique;
+    font-weight: 200px;
+}
+ nav ul li{ 
+padding: 0 12px;
+} 
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-style:initial;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 71vh;
+    background-color: rgb(4, 22, 26);
+    color:white;
+    font-family:'Varela Round',sans-serif;
+    display: flex;
+    margin:23px auto;
+    width: 54%;
+    border-radius: 34px;
+    padding: 40px;
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: contain;
+}
+.bottom{
+    position: sticky;
+    height:90px;
+    background-color:rgb(214, 132, 132);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.songname{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#myProgressBar{
+ width:80vw;
+ cursor: pointer;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+cursor:pointer;
+}
+.songitem{
+    height:50px;
+    display:flex;
+    background-color: white;
+    color:black;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.SongList{
+  
+
+    align-items: center;
+}
+.songitem img{
+width: 43px;
+margin: 0 23px;
+border-radius: 34px;
+}
+.timestamp{
+    margin:0 23px;
+}
+.timestamp i{
+cursor: pointer;
+}
+.songitemcontainer{
+    margin-top:74px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family:'Varela Round',sans-serif;
+    
+}
+.songinfo img{
+    opacity: 0;
+    transition : opacity 0.4s ease-in;
+}
+
